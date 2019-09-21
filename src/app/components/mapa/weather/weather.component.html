@@ -1,0 +1,47 @@
+<div style="width: 50em; height: auto;">
+
+    <mat-chip-list aria-label="Fish selection">Ciudad:
+        <mat-chip color="primary" selected>{{infoweather.name}}</mat-chip>
+    </mat-chip-list>
+    <p>País: {{infoweather.country}}</p>
+    <hr>
+
+    <!-- <mat-grid-list cols="3" rowHeight="2:1">
+                    <mat-grid-tile>
+                        <!-- <mat-grid-tile-header>
+                        </mat-grid-tile-header> -->
+    <!-- <h3>Temperatura actual: {{infoweather.temp}}°</h3>
+                        <img width="100" height="100" src="assets/img/clima.svg" alt="" srcset="">
+                    </mat-grid-tile>
+                    <mat-grid-tile>
+                        <h3>Humedad actual: {{infoweather.humidity}}°</h3>
+                        <img width="100" height="100" src="assets/img/humedad.png" alt="" srcset="">
+                    </mat-grid-tile>
+                    <mat-grid-tile>
+                        <h3>Máxima: {{infoweather.temp_max}}°</h3>
+                        <h3>Minima: {{infoweather.temp_min}}°</h3>
+                        <img width="100" height="100" src="assets/img/lluvia.png" alt="" srcset="">
+                    </mat-grid-tile> -->
+    <!-- </mat-grid-list> -->
+    <div class="row">
+        <div class="col text-center">
+            <h6>Temperatura actual</h6>
+            <h4>{{infoweather.temp}}°</h4>
+            <img width="100" height="100" src="assets/img/clima.svg" alt="" srcset="">
+        </div>
+        <div class="col text-center">
+            <h6>Humedad</h6>
+            <h4>{{infoweather.humidity}}°</h4>
+            <img width="100" height="100" src="assets/img/humedad.png" alt="" srcset="">
+        </div>
+
+        <div class="col text-center">
+            <h6>Temperatura máxima</h6>
+            <h4>{{infoweather.temp_max}}°</h4>
+            <hr>
+            <h6>Temperatura mínima</h6>
+            <h4>{{infoweather.temp_min}}°</h4>
+            <!-- <img width="100" height="100" src="assets/img/lluvia.png" alt="" srcset=""> -->
+        </div>
+    </div>
+</div>

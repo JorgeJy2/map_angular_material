@@ -1,27 +1,27 @@
-# Mapas
+# Héroes_angular :movie_camera: <img alt="logo" width="128px" align="right" src="https://res.cloudinary.com/djdcezwon/image/upload/v1569087127/public_apps/mapas_angular/icon_dnhnor.png">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+Página web de clima usando google maps
 
-## Development server
+### Características
+- :earth_africa: Visualizar mapas con la API de google maps.
+- :sunrise: Visualizar el clíma de una ciudad.
+- :dart: Guardar registro de climas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Tecnologías
+- Angular Material
+- Google maps
+- Registro en el local storage
 
-## Code scaffolding
+### APIS
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Clima: https://openweathermap.org/api
+- Google maps: https://developers.google.com/maps/documentation/javascript/get-api-key?hl=en#key
 
-## Build
+### Previsualización 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+<img alt="Home map" width="45%" align="left" src="https://res.cloudinary.com/djdcezwon/image/upload/v1569087129/public_apps/mapas_angular/mapas4_ynnlq4.png">
+<img alt="Map point" width=45%" align="left" src="https://res.cloudinary.com/djdcezwon/image/upload/v1569087130/public_apps/mapas_angular/mapas9_iwizq2.png">
+<img alt="update info" width="45%" align="left" src="https://res.cloudinary.com/djdcezwon/image/upload/v1569087129/public_apps/mapas_angular/mapas8_ium1ni.png">
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<img alt="view info map" width="45%" align="left" src="https://res.cloudinary.com/djdcezwon/image/upload/v1569087129/public_apps/mapas_angular/mapas6_h412pw.png">
+<img alt="map view" width="45%" align="left" src="https://res.cloudinary.com/djdcezwon/image/upload/v1569087132/public_apps/mapas_angular/mapas7_fq2u61.png">                                                                            
