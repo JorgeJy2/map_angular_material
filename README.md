@@ -1,4 +1,4 @@
-# Héroes_angular :movie_camera: <img alt="logo" width="128px" align="right" src="https://res.cloudinary.com/djdcezwon/image/upload/v1569087127/public_apps/mapas_angular/icon_dnhnor.png">
+# Mapas angular :earth_africa: <img alt="logo" width="128px" align="right" src="https://res.cloudinary.com/djdcezwon/image/upload/v1569087127/public_apps/mapas_angular/icon_dnhnor.png">
 
 Página web de clima usando google maps
 
